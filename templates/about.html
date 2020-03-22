@@ -1,0 +1,71 @@
+{% extends 'base.html' %} {% block content %}
+<!--breadcrumbs start-->
+<div class="breadcrumbs">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-sm-4">
+        <h1>
+          About
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
+<!--breadcrumbs end-->
+
+<!--container start-->
+<div class="container">
+  <div class="row mar-b-50">
+    <div class="col-lg-5">
+      <div class="about-carousel wow fadeInLeft">
+        <div id="myCarousel" class="carousel slide">
+          <!-- Carousel items -->
+          <div class="carousel-inner">
+            <div class="active item">
+              <img src="/assets/img/parallax-slider/images/1.png" alt="">
+              <div class="carousel-caption">
+                <p>
+                  Donec luctus ullamcorper nulla
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="/assets/img/parallax-slider/images/2.png" alt="">
+              <div class="carousel-caption">
+                <p>
+                  Blanditiis praesentium voluptatum
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="/assets/img/parallax-slider/images/3.png" alt="">
+              <div class="carousel-caption">
+                <p>
+                  Blanditiis praesentium voluptatum
+                </p>
+              </div>
+            </div>
+
+          </div>
+          <!-- Carousel nav -->
+          <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                <i class="fa fa-angle-left">
+                </i>
+              </a>
+          <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                <i class="fa fa-angle-right">
+                </i>
+              </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-7 about wow fadeInRight">
+      <h3>About Student Result Analysis</h3>
+      <p> Analysis of the scoring system it shows the grade wise result of individual subject and final result. It also displays information depending on its range of marks. The project can be easily used in college for college result analysis of students. It reduces time which requires manual calculation. This system helps to calculate result fast so it optimizes the manpower. </p>
+        
+        <p>The result of respective departments can be efficiently computed without much of manual involvement, and higher authorities can easily get the result’s analysis.  </p>           
+    </div>
+  </div>
+
+</div>
+{% endblock content %}
